@@ -1,0 +1,267 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    
+}
+/* Navbar Start */
+header{
+    position: absolute;
+    top: 10px;
+    left: 150px;
+    width: 80%;
+    /* background-image: linear-gradient(to right, #95E1D3 , #EAFFD0); */
+    background-color: #1b262cdc;
+    z-index: 1;
+    box-shadow: rgb(24, 24, 24) 0px 3px 15px 0px;
+    border-radius: 50px;
+}
+nav{
+    display: inline;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items:center;
+}
+nav .brand_name{
+    display: inline;
+    text-align: center;
+    text-decoration: none;
+    font-size:x-large;
+    color: white;
+    font-weight: 600;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.roundLetter
+{
+    padding: 2px;
+    color: #BBE1FA;
+    display: inline-block;
+    font-size:x-large;
+    animation-name: spin;
+    animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+nav ul{
+    display: inline;
+    margin-left: 200px;
+}
+nav ul li{
+    display: inline;
+    align-self: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    transition: all 0.5s ease-in-out;
+}
+nav ul li:hover{
+    background-color: white;
+    padding: 5px;
+    border-radius: 25px;
+    
+
+}
+nav ul li a{
+    font-size: large;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+nav ul li a:hover{
+    color: #1B262C;
+    
+}
+nav ul span{
+    color: white;
+}
+nav ul .vr{
+    display: inline;
+    width: 5px;
+    height: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-left: 1px solid white;
+}
+/* Navbar End */
+
+.conatiner
+{
+    background-image: url("https://www.teahub.io/photos/full/299-2991621_laptop-wallpapers-79-hd-laptop-wallpapers-on-wallpaperplay.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+    width: 1459px;
+    height: 750px;
+    padding: 30px;
+    overflow: hidden;
+}
+.conatiner .animeContent{
+    text-align: center;
+    position: relative;
+    top: 80px;
+    height: 500px;
+}
+.conatiner .animateMe{
+    position: relative;
+    padding: 10px;
+    display: inline;
+    margin-right: 10px;
+}
+
+.conatiner .animateMe img{
+    width: 400px;
+    height: 250px;
+    display: inline;
+    border-radius: 25px;
+    transition: transform .2s;
+    
+}
+.conatiner .animateMe img:hover{
+    transform: scale(1.08);
+}
+.conatiner .showBtnStyle{
+    padding: 10px;
+    margin-top: 20px;
+    width: 100px;
+    border-radius: 25px;
+    background-color: #1B262C;
+    border: 0px;
+    color: white;
+    box-shadow: rgb(219, 219, 219) 0px 2px 7px 0px;
+}
+.animateType3{
+    position: relative;
+    width: 400px;
+    height: 200px;
+    padding: 10px;
+    border-radius: 25px;
+    float: left;
+}
+.animateType4{
+    position: relative;
+    width: 400px;
+    height: 200px;
+    right: 65px;
+    padding: 10px;
+    border-radius: 25px;
+    float: right;
+}
+.animateType4 img{
+    width: 400px;
+    height: 300px;
+    border-radius: 25px;
+}
+.animateType3 img{
+    width: 400px;
+    height: 300px;
+    border-radius: 25px;
+}
+
+/* post start */
+.posts{
+    margin: 20px;
+    width: 93%;
+    height: 100%;
+    padding: 30px;
+    
+}
+.posts .postsContainer{
+    background-color: #5252526c;
+    margin: 20px;
+    width: 93%;
+    height: 100%;
+    padding: 30px;
+    border-radius: 25px;
+    
+}
+.posts .postsContainer .post{
+    background-color: #ffffff;
+    width: 50%;
+    height: 50%;
+    padding: 30px;
+    border-radius: 25px;
+    box-shadow: #9c9c9c 0px 7px 29px 0px;
+    margin-left: 300px;
+    margin-top: 25px;
+}
+.posts .postsContainer .post #imgID img{
+    width:70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.posts .postsContainer .post #imgID{
+    margin-right: 40px;
+    float: left;
+}
+.posts .postsContainer .post #usrInfoID{
+    float: right;
+    margin-right: 450px;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    color: rgb(112, 112, 112);
+}
+.posts .postsContainer .post .postBodyClass{
+    color: rgb(27, 27, 27);
+}
+.posts .postsContainer .activityClass{
+    position: relative;
+    z-index: 1;
+    background-color: rgb(185, 9, 9);
+    margin-top: 50px;
+    
+}
+.posts .postsContainer .activityClass span{
+    display: block;
+}
+.posts .postsContainer .activityClass span li{
+    width: 100px;
+    background-color: violet;
+    display: inline-block;
+}
+/* post end */
+
+
+footer{
+    margin: 10px;
+    position: relative;
+    bottom: 10px;
+    left: 150px;
+    width: 80%;
+    background-color: #1b262cdc;
+    z-index: 1;
+    box-shadow: rgb(24, 24, 24) 0px 3px 15px 0px;
+    border-radius: 75px;
+    text-align: center;
+}
+
+footer .pages{
+    padding-top: 20px;
+}
+footer .pages div{
+    display: inline;
+    margin: 25px;
+}
+footer .footerlinks .pages div a{
+    font-size: large;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+footer .social{
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+footer .social div{
+    display: inline;
+    color: white;
+    margin: 10px;
+}

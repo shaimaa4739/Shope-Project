@@ -1,0 +1,387 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    
+}
+/* Navbar Start */
+header{
+    position: absolute;
+    top: 10px;
+    left: 150px;
+    width: 80%;
+    /* background-image: linear-gradient(to right, #95E1D3 , #EAFFD0); */
+    background-color: #1b262cdc;
+    z-index: 1;
+    box-shadow: rgb(24, 24, 24) 0px 3px 15px 0px;
+    border-radius: 50px;
+}
+nav{
+    display: inline;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items:center;
+}
+nav .brand_name{
+    display: inline;
+    text-align: center;
+    text-decoration: none;
+    font-size:x-large;
+    color: white;
+    font-weight: 600;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.roundLetter
+{
+    padding: 2px;
+    color: #BBE1FA;
+    display: inline-block;
+    font-size:x-large;
+    animation-name: spin;
+    animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+nav ul{
+    display: inline;
+    margin-left: 200px;
+}
+nav ul li{
+    display: inline;
+    align-self: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    transition: all 0.5s ease-in-out;
+}
+nav ul li:hover{
+    background-color: white;
+    padding: 5px;
+    border-radius: 25px;
+    
+
+}
+nav ul li a{
+    font-size: large;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+nav ul li a:hover{
+    color: #1B262C;
+    
+}
+nav ul span{
+    color: white;
+}
+nav ul .vr{
+    display: inline;
+    width: 5px;
+    height: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-left: 1px solid white;
+}
+/* Navbar End */
+
+/* Slider Start */
+.slider
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.slider .content
+{
+    text-align: center;
+}
+.slider .content .imageContainer img
+{
+    width: 100%;
+    height: 750px;
+    object-fit: cover;
+}
+.slideNext{
+    position: absolute;
+    top: 300px;
+    float: right;
+    right: 16px;
+}
+
+.slidePrevious{
+    position: absolute;
+    top: 300px;
+    float: left;
+    left: 16px;
+}
+#slide
+{
+    text-decoration: none;
+    border: 0px;
+    padding: 15px;
+    background-color: #1b262ca8;
+    color: white;
+    font-size: large;
+    border-radius: 50%;
+}
+#slide:hover
+{
+    
+    background-color: #1B262C;
+    
+    
+}
+/* Slider End */
+
+/* Info Start */
+.info{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    position: relative;
+    padding: 10px;
+    background-color: white;
+    box-shadow: #cecece 0px 7px 29px 0px;
+    /* background-image: linear-gradient(#BBE1FA, #3282B8); */
+    height: 600px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items:center;
+    border-radius: 30px;
+    border: 1px solid #1b262ca8;
+}
+.info .imageDiv img{
+    width: 100%;
+    height: 400px;
+}
+.info .infoPara hr{
+    border: 1px solid #1f77a7cb;
+    width: 50%;
+    border-radius: 25px;
+    background-color: #1f77a7cb;
+}
+.info .infoPara img{
+    width: 40%;
+    height: 300px;
+}
+.info .infoPara h2 span{
+    color: #1f77a7;
+}
+.info .infoPara .loremDiv{
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 25px;
+}
+.info .infoPara .loremDiv p{
+    text-align:justify;
+    color: black;
+}
+
+/* Info End */
+
+/* Products categories Start */
+.products{
+    margin-top: 25px;
+    position: relative;
+    padding: 10px;
+}
+.products .categories{
+    position: relative;
+    background-color:#3282b8be; 
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    align-items:center;
+    height: 100%;
+    gap: 10px;
+    border-radius: 25px;
+
+
+}
+.products .categories button{
+    position:absolute;
+    background-color: #1b262cdc;
+    border-radius: 25px;
+    color: white;
+    border: 0px;
+    padding: 5px;
+    width: 50%;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 5px;
+}
+.products .categories button:hover{
+    background-color: #0F4C75;
+    
+}
+.products .categories div
+{
+    border-radius: 25px;
+    position: relative;
+    display: inline;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    margin-right: 30px;
+    
+}
+.products .categories div img{
+    width: 100%;
+    height: 250px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    object-fit: cover;
+}
+.products .categories div button{
+    position: relative;
+    bottom: 0px;
+    transition: all 0.5s ease-in-out;
+}
+/* Products categories End */
+
+/* ProductsContainer Start */
+.products .productsContainer{
+
+    margin: 30px;
+    position: relative;
+    background-color:#BBE1FA; 
+    padding: 20px;
+    display: none;
+    grid-template-columns: 25% 25% 25% 25%;
+    align-items:center;
+    height: 100%;
+    gap: 10px;
+    border-radius: 25px;
+
+}
+.products .productsContainer div
+{
+    border-radius: 25px;
+    position: relative;
+    display: inline;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    margin-right: 30px;
+}
+.products .productsContainer div img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+.products .productsContainer div button{
+    background-color: #3282B8;
+    margin-bottom: 5px;
+    color: white;
+    border: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 50px;
+    transition: all 0.5s ease-in-out;
+}
+.products .productsContainer div button:hover{
+    background-color: #0F4C75;
+}
+/* ProductsContainer End */
+
+/* goTop start */
+.myCrad{
+    position: fixed;
+    bottom: 120px;
+    right: 20px;
+    background-color: #2c2c2cad;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    z-index: 1;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    justify-content: center;
+    box-shadow: gray 0px 7px 29px 0px;
+
+}
+.myCrad i,p{
+    text-decoration: none;
+    color: white;
+
+}
+.myCrad:hover{
+    background-color: #0F4C75;
+    
+}
+
+.goTop{
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
+    background-color: #2c2c2cad;
+    text-align: center;
+    padding: 10px;
+    z-index: 1;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    box-shadow: gray 0px 7px 29px 0px;
+}
+.goTop a{
+    text-decoration: none;
+    color: white;
+
+}
+.goTop:hover{
+    background-color: #0F4C75;
+    
+}
+
+/* goTop End */
+
+footer{
+    margin: 10px;
+    position: relative;
+    bottom: 10px;
+    left: 150px;
+    width: 80%;
+    background-color: #1b262cdc;
+    z-index: 1;
+    box-shadow: rgb(24, 24, 24) 0px 3px 15px 0px;
+    border-radius: 75px;
+    text-align: center;
+}
+
+footer .pages{
+    padding-top: 20px;
+}
+footer .pages div{
+    display: inline;
+    margin: 25px;
+}
+footer .footerlinks .pages div a{
+    font-size: large;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+footer .social{
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+footer .social div{
+    display: inline;
+    color: white;
+    margin: 10px;
+}

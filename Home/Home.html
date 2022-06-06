@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="../Home/HomeStyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- Navbar Start -->
+    <header >
+        <nav>
+            <a class="brand_name" href="../Home/Home.html">Sh<span class="roundLetter">O</span>pe</a>
+            <ul>
+                <li><a href="../Home/Home.html">Home</a></li>
+                <div class="vr"></div>
+                <li><a href="../About/About.html">About</a></li>
+                <div class="vr"></div>
+                <li><a href="../JQpage/page4.html">Servcies</a></li>
+                <div class="vr"></div>
+                <li><a href="../ContactUs/Contactus.html">Contact Us</a></li>
+                <Span><i class="fas fa-cart-plus fa-lg"></i>
+                    <p class="productsNumber" style="display: inline;"></p></Span>
+            </ul>
+        </nav>
+    </header>
+    <!-- Navbar End -->
+
+    <!-- Slider Start -->
+    <section class="slider" id="topMe" >
+        <div class="content">
+            <div class="imageContainer" id="slideShow">
+                <img id="imageID" src="" alt="">
+            </div>
+            <div class="slide">
+                <div class="slidePrevious">
+                    <button id="slide" onclick="previousImage()"><i class="fas fa-arrow-left fa-lg"></i></button>
+                </div>
+                <div class="slideNext">
+                    <button id="slide" onclick="nextImage()"><i class="fas fa-arrow-right fa-lg"></i></button>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <!-- Slider End -->
+
+    <!-- Info Start -->
+    <section class="info">
+        <div class="imageDiv">
+            <img src="../Images/undraw_web_shopping_re_owap.svg" alt="">
+        </div>
+        <div class="infoPara">
+            <h2 style="text-align: center; font-family: Georgia, 'Times New Roman', Times, serif;">What is our <span>services</span> ?</h2>
+            <hr>
+            <div class="loremDiv">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus delectus recusandae, alias modi mollitia sed aut qui quisquam sint dicta adipisci odit aliquam eius. Nesciunt repellat, porro harum quisquam sint est velit, eum odio sed error nisi. Nisi, veniam nobis iusto cupiditate nihil magnam fugiat facilis minima, quaerat tenetur dolorem.
+                </p>
+                <img src="../Images/undraw_add_to_cart_re_wrdo.svg" alt="">
+                <img src="../Images/undraw_wallet_aym5.svg" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- Info End -->
+
+    <!-- Products Start -->
+    <section class="products">
+        <div class="categories">
+            <div>
+                <img src="../Images/Phones/7.jpg" alt=""><br>
+                <button id="btn1" onclick="displayProducts(event.target.innerText)">Phones</button>
+            </div>
+            <div>
+                <img src="../Images/makeUp/5.jpg" alt=""><br>
+                <button id="btn2" onclick="displayProducts(event.target.innerText)">Make Up</button>
+            </div>
+            <div>
+                <img src="../Images/Clothes/6.jpg" alt=""><br>
+                <button id="btn3" onclick="displayProducts(event.target.innerText)">Clothes</button>
+            </div>
+            <div>
+                <img src="../Images/Cars/7.jpg" alt=""><br>
+                <button id="btn4" onclick="displayProducts(event.target.innerText)">Cars</button>
+            </div>
+        </div>
+
+        <div class="productsContainer" id="productsContainerID">
+            
+        </div>
+    </section>
+    <!-- Products End -->
+
+    <!-- Top Button Start -->
+    <section>
+        <div class="myCrad">
+            <i class="fas fa-cart-plus fa-lg"></i>
+                    <p class="productsNumber" style="display: inline;"></p>
+        </div>
+    </section>
+    <section>
+        <div class="goTop">
+            <a href="#topMe"><i class="fas fa-arrow-up fa-2x"></i></a>
+        </div>
+    </section>
+    <!-- Top Button End -->
+
+    <!-- Footer Start -->
+    <footer>
+        <div class="footerlinks">
+            <div class="pages">
+                <div><a href="../Home/Home.html">Home</a></div>
+                <div><a href="../About/About.html">About</a></div>
+                <div><a href="../ContactUs/Contactus.html">Contact Us</a></div>
+            </div>
+            <br>
+            <div class="social">
+                <div><i class="fab fa-facebook"></i></div>
+                <div><i class="fab fa-instagram"></i></div>
+                <div><i class="fab fa-linkedin-in"></i></div>
+                <div><i class="fab fa-twitter"></i></div>
+                <div><i class="fab fa-youtube"></i></div>
+            </div>
+        </div>
+        
+    </footer>
+    <!-- Footer End -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="../Home/HomeScript.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.6.0.js"></script> -->
+</body>
+</html>

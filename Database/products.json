@@ -1,0 +1,290 @@
+[
+    {
+        "id":1,
+        "category_name":"Phones",
+        "image":"../Images/Phones/1.jpg",
+        "product_name":"Samsung Galaxy A12 (128GB, 4GB)",
+        "product_price":15000,
+        "available_qty":10,
+        "product_rate":4
+    },
+    {
+        "id":2,
+        "category_name":"Phones",
+        "image":"../Images/Phones/2.jpg",
+        "product_name":"OnePlus 9 Pro Pine",
+        "product_price":21199,
+        "available_qty":3,
+        "product_rate":3
+    },
+    {
+        "id":3,
+        "category_name":"Phones",
+        "image":"../Images/Phones/3.jpg",
+        "product_name":"Apple iPhone 11, 64GB",
+        "product_price":35599,
+        "available_qty":5,
+        "product_rate":5
+    },
+    {
+        "id":4,
+        "category_name":"Phones",
+        "image":"../Images/Phones/4.jpg",
+        "product_name":"Apple iPhone 8 Plus",
+        "product_price":5200,
+        "available_qty":7,
+        "product_rate":3
+    },
+    {
+        "id":5,
+        "category_name":"Phones",
+        "image":"../Images/Phones/5.jpg",
+        "product_name":"Apple iPhone 8",
+        "product_price":7395,
+        "available_qty":6,
+        "product_rate":5
+    },
+    {
+        "id":6,
+        "category_name":"Phones",
+        "image":"../Images/Phones/6.jpg",
+        "product_name":"Apple iPhone 12 Pro Max",
+        "product_price":52560,
+        "available_qty":4,
+        "product_rate":5
+    },
+    {
+        "id":7,
+        "category_name":"Phones",
+        "image":"../Images/Phones/7.jpg",
+        "product_name":"SAMSUNG Galaxy S22",
+        "product_price":13200,
+        "available_qty":15,
+        "product_rate":4
+    },
+    {
+        "id":8,
+        "category_name":"Phones",
+        "image":"../Images/Phones/8.jpg",
+        "product_name":"Samsung Galaxy A12 (32GB, 3GB)",
+        "product_price":18000,
+        "available_qty":11,
+        "product_rate":5
+    },
+    {
+        "id":1,
+        "category_name":"Make Up",
+        "image":"../Images/makeUp/1.jpg",
+        "product_name":"Pretty Woman Lip Gloss 4 ml",
+        "product_price":264,
+        "available_qty":10,
+        "product_rate":4
+    },
+    {
+        "id":2,
+        "category_name":"Make Up",
+        "image":"../Images/makeUp/2.jpg",
+        "product_name":"ASTRA Blush Me All Over Lip and Cheek Blush Stick",
+        "product_price":130,
+        "available_qty":3,
+        "product_rate":3
+    },
+    {
+        "id":3,
+        "category_name":"Make Up",
+        "image":"../Images/makeUp/3.jpg",
+        "product_name":"Pretty Woman Matte Lip Gloss - Shade Number 45",
+        "product_price":560,
+        "available_qty":5,
+        "product_rate":5
+    },
+    {
+        "id":4,
+        "category_name":"Make Up",
+        "image":"../Images/makeUp/4.jpg",
+        "product_name":"L'Oreal Paris True Match Liquid Foundation",
+        "product_price":370,
+        "available_qty":7,
+        "product_rate":3
+    },
+    {
+        "id":5,
+        "category_name":"Make Up",
+        "image":"../Images/makeUp/5.jpg",
+        "product_name":"Mac Lipstick Please Me (M) One Size, Pack Of 1",
+        "product_price":210,
+        "available_qty":6,
+        "product_rate":5
+    },
+    {
+        "id":6,
+        "category_name":"Make Up",
+        "image":"../Images/makeUp/6.jpg",
+        "product_name":"Deborah Milano Dress Me Perfect Corrector",
+        "product_price":500,
+        "available_qty":4,
+        "product_rate":5
+    },
+    {
+        "id":7,
+        "category_name":"Make Up",
+        "image":"../Images/makeUp/7.jpg",
+        "product_name":"Catrice HD Liquid Coverage Foundation",
+        "product_price":840,
+        "available_qty":15,
+        "product_rate":4
+    },
+    {
+        "id":8,
+        "category_name":"Make Up",
+        "image":"../Images/makeUp/8.jpg",
+        "product_name":"Pupa Active Light Foundation SPF10 007, Rose",
+        "product_price":430,
+        "available_qty":11,
+        "product_rate":5
+    },
+    {
+        "id":1,
+        "category_name":"Cars",
+        "image":"../Images/Cars/1.jpg",
+        "product_name":"McLaren 720S Spider",
+        "product_price":1551500,
+        "available_qty":10,
+        "product_rate":4
+    },
+    {
+        "id":2,
+        "category_name":"Cars",
+        "image":"../Images/Cars/2.jpg",
+        "product_name":"Aston Martin Valkyrie",
+        "product_price":1918199,
+        "available_qty":3,
+        "product_rate":3
+    },
+    {
+        "id":3,
+        "category_name":"Cars",
+        "image":"../Images/Cars/3.jpg",
+        "product_name":"Maserati Levante Trofeo",
+        "product_price":782599,
+        "available_qty":5,
+        "product_rate":5
+    },
+    {
+        "id":4,
+        "category_name":"Cars",
+        "image":"../Images/Cars/4.jpg",
+        "product_name":"Ferrari 488 Pista",
+        "product_price":2050100,
+        "available_qty":7,
+        "product_rate":3
+    },
+    {
+        "id":5,
+        "category_name":"Cars",
+        "image":"../Images/Cars/5.jpg",
+        "product_name":"Porsche 911 Carrera 4S Cabriolet",
+        "product_price":1691395,
+        "available_qty":6,
+        "product_rate":5
+    },
+    {
+        "id":6,
+        "category_name":"Cars",
+        "image":"../Images/Cars/6.jpg",
+        "product_name":"Bentley Mulsanne WO Edition by Mulliner",
+        "product_price":251600,
+        "available_qty":4,
+        "product_rate":5
+    },
+    {
+        "id":7,
+        "category_name":"Cars",
+        "image":"../Images/Cars/7.jpg",
+        "product_name":"Lamborghini Huracán EVO",
+        "product_price":1198200,
+        "available_qty":15,
+        "product_rate":4
+    },
+    {
+        "id":8,
+        "category_name":"Cars",
+        "image":"../Images/Cars/8.jpg",
+        "product_name":"Rolls-Royce Black Badge Dawn",
+        "product_price":1856900,
+        "available_qty":11,
+        "product_rate":5
+    },
+    {
+        "id":1,
+        "category_name":"Clothes",
+        "image":"../Images/Clothes/1.jpg",
+        "product_name":"High Waist Wide Leg Sweatpants",
+        "product_price":1500,
+        "available_qty":10,
+        "product_rate":4
+    },
+    {
+        "id":2,
+        "category_name":"Clothes",
+        "image":"../Images/Clothes/2.jpg",
+        "product_name":"KASSANY Pajama Set Size For Girls-HS",
+        "product_price":1199,
+        "available_qty":3,
+        "product_rate":3
+    },
+    {
+        "id":3,
+        "category_name":"Clothes",
+        "image":"../Images/Clothes/3.jpg",
+        "product_name":"Plain Sleeve Text Cotton T-Shirt",
+        "product_price":599,
+        "available_qty":5,
+        "product_rate":5
+    },
+    {
+        "id":4,
+        "category_name":"Clothes",
+        "image":"../Images/Clothes/4.jpg",
+        "product_name":"El Sayaad Cotton Short Sleeves T-Shirt with Elastic Waist Shorts Pajama",
+        "product_price":200,
+        "available_qty":7,
+        "product_rate":3
+    },
+    {
+        "id":5,
+        "category_name":"Clothes",
+        "image":"../Images/Clothes/5.jpg",
+        "product_name":"Jersey Tops Tshirts",
+        "product_price":395,
+        "available_qty":6,
+        "product_rate":5
+    },
+    {
+        "id":6,
+        "category_name":"Clothes",
+        "image":"../Images/Clothes/6.jpg",
+        "product_name":"Sweatpants - Pants with Side Pockets",
+        "product_price":2560,
+        "available_qty":4,
+        "product_rate":5
+    },
+    {
+        "id":7,
+        "category_name":"Clothes",
+        "image":"../Images/Clothes/7.jpg",
+        "product_name":"Kady Short-Sleeves Front Knot T-shirt with Drawstring Elastic Waist Tie Dye Hot Shorts Pajama Set For Girls",
+        "product_price":1200,
+        "available_qty":15,
+        "product_rate":4
+    },
+    {
+        "id":8,
+        "category_name":"Clothes",
+        "image":"../Images/Clothes/8.jpg",
+        "product_name":"plainwomen cotton pants",
+        "product_price":1800,
+        "available_qty":11,
+        "product_rate":5
+    }
+]

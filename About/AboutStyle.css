@@ -1,0 +1,166 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    background-image: url("../Images/10.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* Navbar Start */
+header{
+    position: absolute;
+    top: 10px;
+    left: 150px;
+    width: 80%;
+    /* background-image: linear-gradient(to right, #95E1D3 , #EAFFD0); */
+    background-color: #1b262cdc;
+    z-index: 1;
+    box-shadow: rgb(24, 24, 24) 0px 3px 15px 0px;
+    border-radius: 50px;
+}
+nav{
+    display: inline;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items:center;
+}
+nav .brand_name{
+    display: inline;
+    text-align: center;
+    text-decoration: none;
+    font-size:x-large;
+    color: white;
+    font-weight: 600;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.roundLetter
+{
+    padding: 2px;
+    color: #BBE1FA;
+    display: inline-block;
+    font-size:x-large;
+    animation-name: spin;
+    animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+nav ul{
+    display: inline;
+    margin-left: 200px;
+}
+nav ul li{
+    display: inline;
+    align-self: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    transition: all 0.5s ease-in-out;
+}
+nav ul li:hover{
+    background-color: white;
+    padding: 5px;
+    border-radius: 25px;
+    
+
+}
+nav ul li a{
+    font-size: large;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+nav ul li a:hover{
+    color: #1B262C;
+    
+}
+nav ul span{
+    color: white;
+}
+nav ul .vr{
+    display: inline;
+    width: 5px;
+    height: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-left: 1px solid white;
+}
+/* Navbar End */
+
+/* container start */
+.container{
+    padding-top: 200px;
+    height: 500px;
+}
+.container div{
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.74);
+    padding-top: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 25px;
+    box-shadow: rgb(212, 212, 212) 0px 7px 29px 0px;
+    height: 60%;
+    width: 60%;
+    left: 50px;
+}
+.container img{
+    width: 400px;
+    float: left;
+    margin-right: 50px;
+    margin-left: 10px;
+    height: 250px;
+    
+}
+.container div p{
+    position: relative;
+    width: 80%;
+    margin-left: 50px;
+    padding-left: 50px;
+    font-size: 18px;
+}
+/* container end */
+
+footer{
+    margin: 10px;
+    position: fixed;
+    bottom: 10px;
+    left: 250px;
+    width: 70%;
+    background-color: #1b262cdc;
+    z-index: 1;
+    box-shadow: rgb(24, 24, 24) 0px 3px 15px 0px;
+    border-radius: 75px;
+    text-align: center;
+}
+
+footer .pages{
+    padding-top: 20px;
+}
+footer .pages div{
+    display: inline;
+    margin: 25px;
+}
+footer .footerlinks .pages div a{
+    font-size: large;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+footer .social{
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+footer .social div{
+    display: inline;
+    color: white;
+    margin: 10px;
+}
